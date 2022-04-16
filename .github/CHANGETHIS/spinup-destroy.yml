@@ -2,7 +2,7 @@ name: Configure Azure environment
 
 on: 
   pull_request:
-    types: spin up environment
+    types: [labeled]
 
 env:
   PACKAGES_TOKEN: ${{secrets.PACKAGES_TOKEN}}
